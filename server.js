@@ -2,6 +2,8 @@
 
 const express = require('express');
 const mongoose = require('mongoose');
+
+const cors = require('cors');
 // const config = require('config');
 
 const app = express();
@@ -10,6 +12,7 @@ require('dotenv').config();
 
 //BODY-PARSER MIDDLEWARE
 app.use(express.json());
+app.use(cors());
 
 // DB CONFIG (we get our congif folder values with "config.get()")
 // const db = config.get('mongoURI');

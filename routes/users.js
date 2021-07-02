@@ -7,7 +7,7 @@ const jwt = require('jsonwebtoken');
 //USER MODEL
 const User = require('../models/User');
 
-// @route: GET routes/users
+// @route: GET api/users
 // @description: Fetch users
 // @access: Public
 router.get('/', (req, res) => {
