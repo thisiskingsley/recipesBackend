@@ -1,7 +1,6 @@
 //THIS MIDDLEWARE IS TO SEE IF A USER HAS ACCESS TO A URL/PATH VIA THEIR TOKEN
 // OR SIMPLY TO SEE WHETHER A USER IS LOGGED IN OR NOT.
 
-
 // const config = require('config');
 const jwt = require('jsonwebtoken');
 
